@@ -1,0 +1,490 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="KiiCode API adalah platform REST API yang handal dan mudah digunakan. Dengan antarmuka yang intuitif, pengguna dapat mengakses dan mengintegrasikan berbagai sumber daya data dengan mudah.">
+    <meta name="author" content="KiiCode">
+    <meta name="keywords" content="KiiCode, KiiCode API, kiicode, KiiCodeXd API, kiicodexd, kiicodeapi, kiicodeapis, web">
+    <title>KiiCode API || DASHBOARD</title> <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet"> <!-- End fonts --> <!-- core:css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/vendors/core/core.css"> <!-- endinject --> <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="/vendors/flatpickr/flatpickr.min.css"> <!-- End plugin css for this page --> <!-- inject:css -->
+    <link rel="stylesheet" href="/fonts/feather-font/css/iconfont.css">
+    <link rel="stylesheet" href="/vendors/flag-icon-css/css/flag-icon.min.css"> <!-- endinject --> <!-- Layout styles -->
+    <link rel="stylesheet" href="/css/demo2/style.min.css"> <!-- End layout styles -->
+    <link rel="stylesheet" href="https://www.nobleui.com/html/template/assets/css/demo1/style.min.css">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+  
+        <div class="main-wrapper">
+            <nav class="sidebar">
+        <div class="sidebar-header"><a href="#" class="sidebar-brand"> KiiCode <span>API</span> </a>
+          <div class="sidebar-toggler not-active"><span></span> <span></span> <span></span>
+          </div>
+        </div>
+        <div class="sidebar-body">
+          <ul class="nav">
+            <li class="nav-item nav-category">Main</li>
+            <li class="nav-item"><a href="/dashboard" class="nav-link"> <i class="link-icon" data-feather="box"></i> <span class="link-title">Dashboard</span> </a></li>
+            <li class="nav-item"><a href="/pricing" class="nav-link"> <i class="link-icon" data-feather="credit-card"></i> <span class="link-title">Pricing</span> </a></li>
+            <li class="nav-item nav-category">Feature API</li>
+            <li class="nav-item">
+              <a href="/feature/anime" class="nav-link">
+                <i class="fas fa-tv"></i>
+                <span class="link-title">Anime</span>
+              </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/ai" class="nav-link">
+               <i class="fas fa-code"></i>
+               <span class="link-title">AI</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/download" class="nav-link">
+               <i class="fas fa-download"></i>
+               <span class="link-title">Download</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/sfw" class="nav-link">
+               <i class="fas fa-image"></i>
+               <span class="link-title">Random Image</span>
+             </a>
+           </li> 
+           <li class="nav-item">
+             <a href="/feature/stalker" class="nav-link">
+               <i class="fas fa-eye"></i>
+               <span class="link-title">Stalker</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/ewallet" class="nav-link">
+               <i class="fa-solid fa-wallet"></i>
+               <span class="link-title">E-wallet Checker</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/search" class="nav-link">
+               <i class="fas fa-search"></i>
+               <span class="link-title">Search</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/canvas" class="nav-link">
+               <i class="fas fa-palette"></i>
+               <span class="link-title">Canvas</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/maker" class="nav-link">
+               <i class="fas fa-pencil"></i>
+               <span class="link-title">Maker</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/tools" class="nav-link">
+               <i class="fas fa-wrench"></i>
+               <span class="link-title">Tools</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="/feature/internet" class="nav-link">
+               <i class="fas fa-globe"></i>
+               <span class="link-title">Internet</span>
+             </a>
+           </li>
+           <li class="nav-item nav-category">Contact</li>
+           <li class="nav-item">
+             <a href="https://tiktok.com/@kiicodeproject" class="nav-link">
+               <i class="fab fa-tiktok"></i>
+               <span class="link-title">Tiktok</span>
+             </a>
+           </li>
+           <li class="nav-item">
+             <a href="https://t.me/kiicode" class="nav-link">
+               <i class="fab fa-telegram"></i>
+               <span class="link-title">Telegram</span>
+             </a>
+           </li>
+          </ul> 
+        </div>
+      </nav>
+      <nav class="settings-sidebar">
+        <div class="sidebar-body"><a href="#" class="settings-sidebar-toggler"> <i class="fas fa-id-card"></i> </a>
+          <div class="theme-wrapper">
+            <div class="card"> 
+              <img src="https://telegra.ph/file/027475139cca09ede898e.png" class="card-img-top">
+              <div class="card-body">
+                <h6 class="card-title">Information</h6>
+                <p class="card-text mb-3"> 
+                   Jangan lupa join channel WhatsApp kami
+                </p>
+                <a href="https://whatsapp.com/channel/0029VaAq3iRGJP8LeGKcgj3n" class="btn btn-primary">
+                  <i class="fab fa-whatsapp"></i> Join now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </nav>
+
+      <div class="page-wrapper">
+              <nav class="navbar"><a href="#" class="sidebar-toggler"> <i data-feather="menu"></i> </a>
+          <div class="navbar-content">
+            <form class="search-form">
+              <div class="input-group">
+                <div class="input-group-text"><i data-feather="search"></i>
+                </div> <input type="text" class="form-control" id="navbarForm" placeholder="Search here...">
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i data-feather="bell"></i>
+                  <div class="indicator">
+                    <div class="circle"></div>
+                  </div> </a>
+                <div class="dropdown-menu p-0" aria-labelledby="notificationDropdown">
+                  <div class="px-3 py-2 d-flex align-items-center justify-content-between border-bottom">
+                    <p>1 New Notifications</p> <a href="javascript:;" class="text-muted">Clear all</a>
+                  </div>
+                  <div class="p-1"><a href="javascript:;" class="dropdown-item d-flex align-items-center py-2">
+                      <div class="wd-30 ht-30 d-flex align-items-center justify-content-center rounded-circle me-3">
+                        <img src="https://lh3.googleusercontent.com/a/ACg8ocJHfknnDCFN83YbnAK2LX2OhyOfc1cBRqV8iHHKvhX82g=s96-c" class="rounded-circle wd-35" alt="user">
+                      </div>
+                        <div class="flex-grow-1 text-truncate ms-2">
+                          <h5 class="noti-item-title">KiiCode<small class="fw-normal text-muted float-end ms-1">1 min ago</small></h5> <small class="noti-item-subtitle text-muted">Special New Ui!</small>
+                        </div> </a>
+                      </a>
+                  </div>
+                  <div class="px-3 py-2 d-flex align-items-center justify-content-center border-top"><a href="javascript:;">View all</a>
+                  </div>
+                </div></li> 
+                
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false"> 
+                <i data-feather="message-square"></i>
+                <span class="noti-icon-badge"></span> </a>
+              <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated dropdown-lg py-0">
+                <div class="p-2 border-top-0 border-start-0 border-end-0 border-dashed border">
+                  <div class="row align-items-center">
+                    <div class="col">
+                      <h6 class="m-0 fs-16 fw-semibold">Live Chat</h6>
+                    </div>
+                    <div class="col-auto"><a href="javascript: void(0);" class="text-dark text-decoration-underline"> <small>Clear All</small> </a>
+                    </div>
+                  </div>
+                </div> <!-- item--> <a href="javascript:void(0);" class="dropdown-item p-0 notify-item card read-noti shadow-none mb-2">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <center><iframe src="https://www5.cbox.ws/box/?boxid=950324&boxtag=kicode" width="380px" height="200px" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+                      </center>
+                    </div>
+                  </div> </a>
+              </div></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                <img class="wd-30 ht-30 rounded-circle" src="https://lh3.googleusercontent.com/a/ACg8ocKltEIEvK9Nk-7VT0YN-gyLIXlkS5ctKXKpkvT5-baRIcaXRMU=s96-c" alt="profile"> </a>
+                <div class="dropdown-menu p-0" aria-labelledby="profileDropdown">
+                  <div class="d-flex flex-column align-items-center border-bottom px-5 py-3">
+                    <div class="mb-3"><img class="wd-80 ht-80 rounded-circle" src="https://lh3.googleusercontent.com/a/ACg8ocKltEIEvK9Nk-7VT0YN-gyLIXlkS5ctKXKpkvT5-baRIcaXRMU=s96-c" alt="">
+                    </div>
+                    <div class="text-center">
+                      <p class="tx-16 fw-bolder">Mhmd Erwin</p>
+                      <p class="tx-12 text-muted">aduhhayrealme@gmail.com</p>
+                    </div>
+                  </div>
+                  <ul class="list-unstyled p-1">
+                    <li class="dropdown-item py-2"><a href="/users/profile" class="text-body ms-0"> <i class="me-2 icon-md" data-feather="user"></i> <span>Profile</span> </a></li>
+                    <li class="dropdown-item py-2"><a href="/auth/logout" class="text-body ms-0"> <i class="me-2 icon-md" data-feather="log-out"></i> <span>Log Out</span> </a></li>
+                  </ul>
+                </div></li>
+            </ul>
+          </div>
+        </nav> 
+
+
+        <div class="page-content">
+
+             
+ 
+    
+
+          <div class="row">
+            <div class="col-12 col-xl-12 stretch-card">
+              <div class="row flex-grow-1">
+              
+                <div class="col-sm-6 col-lg-3 my-3 px-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h5 class="fw-bolder mb-75 mb-2">APIKEY</h5>
+                          <p class="card-text">
+                          KC-83XijZZQ93MN
+                          </p>
+                        </div>
+                        <div class="avatar avatar-stats p-50 m-0 bg-light-success">
+                          <div class="avatar-content">
+                            <i class="fa fa-key fa-2x"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 my-3 px-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h5 class="fw-bolder mb-75 mb-2">USERS</h5>
+                          <p class="card-text">
+                            <div id="users"></div>
+                          </p>
+                        </div>
+                        <div class="avatar avatar-stats p-50 m-0 bg-light-success">
+                          <div class="avatar-content">
+                            <i class="fa fa-users fa-2x"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-3 my-3 px-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h5 class="fw-bolder mb-75 mb-2">VISITOR</h5>
+                          <p class="card-text">
+                            <div id="visitor"></div>
+                          </p>
+                        </div>
+                        <div class="avatar avatar-stats p-50 m-0 bg-light-success">
+                          <div class="avatar-content">
+                            <i class="fa fa-eye fa-2x"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 my-3 px-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h5 class="fw-bolder mb-75 mb-2">IP ADDRESS</h5>
+                          <p class="card-text">
+                            <div id="ipAddress"></div>
+                          </p>
+                        </div>
+                        <div class="avatar avatar-stats p-50 m-0 bg-light-success">
+                          <div class="avatar-content">
+                            <i class="fa fa-globe fa-2x"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 my-3 px-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h5 class="fw-bolder mb-75 mb-2">DATE NOW</h5>
+                          <p class="card-text">
+                            <div id="tanggal"></div>
+                          </p>
+                        </div>
+                        <div class="avatar avatar-stats p-50 m-0 bg-light-success">
+                          <div class="avatar-content">
+                            <i class="fa fa-clock fa-2x"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 my-3 px-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                          <h5 class="fw-bolder mb-75 mb-2">LIMIT API</h5>
+                          <p class="card-text">
+                            1000
+                          </p>
+                        </div>
+                        <div class="avatar avatar-stats p-50 m-0 bg-light-success">
+                          <div class="avatar-content">
+                            <i class="fa fa-rocket fa-2x"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <form action="/users/cekApikey">
+                        <div class="mt-1 mb-2 txt-white">
+                          <h5 class="mt-1 mb-2 txt-white">
+                            <btxt-white">
+                              CEK APIKEY
+                            </btxt-white">
+                          </h5>
+                        </div>
+                        <input class="form-control" type="text" placeholder="KC-83XijZZQ93MN" name="apikey" required>
+                        <br>
+                        <button class="btn btn-primary btn-icon-split">
+                          <span class="icon text-dark-50">
+                            <i class="fas fa-check"></i>
+                          </span>
+                          <span class="text">Submit</span>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="header-title"><i class='fa  fa-handshake text-primary me-2'></i>Thanks To</h6>
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <ul>
+                            <li>AmirulDev</li>
+                            <li>YanzBotz</li>
+                            <li>Dika</li>
+                            <li>Clayza</li>
+                            <li>My Self.</li>
+                            <li>And those of you who use this website and always support me.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h6 class="header-title"><i class='fa fa-exclamation-circle text-primary me-2'></i>S & K</h6>
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <ul>
+                            <li>Jangan Spam/Floading Request!</li>
+                            <li>Owner dapat sewaktu waktu mengubah ketentuan di website ini, demi menjaga kualitas website</li>
+                            <li>Dilarang keras untuk menyebarkan apikey Anda, jika ketahuan akan kami block :)</li>
+                            <li>Jangan Pernah Sesekali Menembak Api!!Jika Ketahuan Tanggung Sendiri Akibatnya</li>
+                            <li>Owner tidak bertanggung jawab atas apa yang Anda lakukan dalam penggunaan website ini</li>
+                            <li>Jika Ada Fitur Eror Segera Lapor Owner!</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div> <!-- row -->
+
+          <!-- End Page-content -->
+        </div> <!-- partial:partials/_footer.html -->
+        <footer class="footer d-flex flex-column flex-md-row align-items-center justify-content-between px-4 py-3 border-top small">
+          <p class="text-muted mb-1 mb-md-0">Copyright © 2024 <a href="https://tiktok.com/@kiicodeproject" target="_blank">KiiCode API</a>.</p>
+          <p class="text-muted">Handcrafted With <i class="mb-1 text-primary ms-1 icon-sm" data-feather="heart"></i></p>
+        </footer> <!-- partial -->
+      </div>
+
+    </div>
+
+    <script>
+      fetch("https://visitor-counter.kentodlahh11.workers.dev/visit?url=api.arifzyn.biz.id")
+        .then(response => response.json())
+        .then(data => {
+
+          document.getElementById("visitor").innerText = `${data.today} / ${data.total}`;
+        })
+        .catch(error => console.error("Error:", error));
+
+      fetch("https://api64.ipify.org?format=json")
+        .then(response => response.json())
+        .then(data => {
+
+          document.getElementById("ipAddress").innerText = `${data.ip}`;
+        })
+        .catch(error => console.error("Error:", error))
+        
+      fetch("/stats")
+        .then(response => response.json())
+        .then(data => {
+
+          document.getElementById("users").innerText = `${data.api.users}`;
+        })
+        .catch(error => console.error("Error:", error));     
+    </script>
+    <script>
+      window.setTimeout("tgl()", 1000);
+
+      function tgl() {
+        const myMonths = ["Jan", "Feb", "March", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const myDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        var tgl = new Date();
+        var day = tgl.getDate();
+        var bulan = tgl.getMonth();
+        var thisDay = tgl.getDay();
+        var ThisDay = myDays[thisDay];
+        var yy = tgl.getYear();
+        var year = (yy < 1000) ? yy + 1900 : yy;
+        var tanggal = `${ThisDay}, ${day} ${myMonths[bulan]} ${year}`
+        setTimeout("tgl()", 1000);
+        document.getElementById("tanggal").innerHTML = tanggal;
+      }
+    </script>
+
+    
+    <script src="/vendors/core/core.js"></script> <!-- endinject --> <!-- Plugin js for this page -->
+    <script src="/vendors/flatpickr/flatpickr.min.js"></script>
+    <script src="/vendors/apexcharts/apexcharts.min.js"></script> <!-- End plugin js for this page --> <!-- inject:js -->
+    <script src="/vendors/feather-icons/feather.min.js"></script>
+    <script src="/js/template.js"></script> <!-- endinject --> <!-- Custom js for this page -->
+    <script src="/js/dashboard-dark.js"></script> <!-- End custom js for this page -->
+  </body>
+</html>
